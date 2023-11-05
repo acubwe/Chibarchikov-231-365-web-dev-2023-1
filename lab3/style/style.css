@@ -1,0 +1,168 @@
+*::after,*::before {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Caveat', cursive;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    min-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 241, 226);
+}
+.header {
+    background-color: #382214;
+    padding: 1.25rem 0;
+    border-bottom: 5px solid #54473f;
+    font-size: 1.2rem;
+    position: sticky;
+    top:0;
+    
+    
+}
+
+.shrift {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: bisque;
+    font-weight: bold;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li {
+    display: inline;
+    margin-right: 5px;
+    padding: 10px;
+}
+.profile {
+    margin-left: auto;
+}
+
+.sidebar {
+    width: 12rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+.sidebar fieldset {
+    border: none;
+}
+.sidebar legend {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.form-group{
+    font-size: 1.2rem;
+}
+.page-content {
+    padding: 1px;
+    padding: 1rem;
+}
+
+.btn {
+    color: white;   
+    background-color: #54473f;
+    border: none;
+    border-radius: 5px;
+    padding: 0.625rem 1.25rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product-card {
+    display: flex;
+    height: 40rem;
+    width: 20rem;
+    background-color: rgb(240,240,240);
+    border: 2px solid  #54473f;
+    border-radius: 5px;
+    flex-direction: column
+}
+.product-image {
+    width: 100%;
+    height: 70%;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-details {
+    width: 100%;
+    height: 35%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.product-details header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.product-info {
+    font-size: 18px;
+    text-align: justify;
+    height: 65%;
+    overflow: auto;
+}
+
+.buy-btn {
+    color: white;   
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    overflow: hidden;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+.price {
+    background-color: rgb(36, 36, 36);
+    padding: 0.625rem 1.25rem;
+    display: inline-block;
+}
+.buy {
+    background-color: #54473f;
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+}
+
+.footer {
+    background-color: #382214;
+    padding: 1.25rem 0;
+    border-top: 5px solid  #54473f;
+    font-size: 1rem;
+    font-weight: bold;
+    flex-grow: 1;
+    color: bisque;
+}
+.d-flex {
+    display: flex;
+}
